@@ -1,0 +1,272 @@
+{
+  "nhits": 9,
+  "parameters": {
+    "dataset": "mobilites-stationnement-des-parkings-en-temps-reel",
+    "rows": 10,
+    "start": 0,
+    "facet": [
+      "nom"
+    ],
+    "format": "json",
+    "timezone": "UTC"
+  },
+  "test": {
+    "records": [
+      {
+        "datasetid": "mobilites-stationnement-des-parkings-en-temps-reel",
+        "recordid": "d16fcc8493a83b76f29199365fb94772755f4131",
+        "fields": {
+          "taux_doccupation": 46.31578947368421,
+          "capacite": 665.0,
+          "places_restantes": 357.0,
+          "nom": "BLOSSAC TISON",
+          "id": "0",
+          "geo_point_2d": [
+            46.57505317559496,
+            0.337126307915689
+          ],
+          "derniere_mise_a_jour_base": "2022-10-20T11:30:21+00:00"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            0.337126307915689,
+            46.57505317559496
+          ]
+        },
+        "record_timestamp": "2022-10-20T09:30:00Z"
+      },
+      {
+        "datasetid": "mobilites-stationnement-des-parkings-en-temps-reel",
+        "recordid": "5621e81373723264d46557f588026005bedd42fb",
+        "fields": {
+          "taux_doccupation": 65.88785046728972,
+          "capacite": 642.0,
+          "places_restantes": 219.0,
+          "nom": "NOTRE DAME",
+          "id": "1",
+          "geo_point_2d": [
+            46.58349874703973,
+            0.3450022616476489
+          ],
+          "derniere_mise_a_jour_base": "2022-10-20T11:30:23+00:00"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            0.3450022616476489,
+            46.58349874703973
+          ]
+        },
+        "record_timestamp": "2022-10-20T09:30:00Z"
+      },
+      {
+        "datasetid": "mobilites-stationnement-des-parkings-en-temps-reel",
+        "recordid": "2d4c803736591a8ea4eb8a9651811176f4a799ae",
+        "fields": {
+          "taux_doccupation": 70.72,
+          "capacite": 625.0,
+          "places_restantes": 183.0,
+          "nom": "HOTEL DE VILLE",
+          "id": "2",
+          "geo_point_2d": [
+            46.5793235337795,
+            0.3385507838016221
+          ],
+          "derniere_mise_a_jour_base": "2022-10-20T11:30:23+00:00"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            0.3385507838016221,
+            46.5793235337795
+          ]
+        },
+        "record_timestamp": "2022-10-20T09:30:00Z"
+      },
+      {
+        "datasetid": "mobilites-stationnement-des-parkings-en-temps-reel",
+        "recordid": "e3508c3c25d8f8db27a135cfb413b24453d3602d",
+        "fields": {
+          "taux_doccupation": 70.625,
+          "capacite": 320.0,
+          "places_restantes": 94.0,
+          "nom": "THEATRE",
+          "id": "3",
+          "geo_point_2d": [
+            46.58383455409422,
+            0.33779491061805567
+          ],
+          "derniere_mise_a_jour_base": "2022-10-20T11:30:24+00:00"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            0.33779491061805567,
+            46.58383455409422
+          ]
+        },
+        "record_timestamp": "2022-10-20T09:30:00Z"
+      },
+      {
+        "datasetid": "mobilites-stationnement-des-parkings-en-temps-reel",
+        "recordid": "77e18a204bdd67e69098700c4fb656e474dad456",
+        "fields": {
+          "taux_doccupation": 66.875,
+          "capacite": 480.0,
+          "places_restantes": 159.0,
+          "nom": "GARE EFFIA",
+          "id": "5",
+          "derniere_mise_a_jour_base": "2022-10-20T11:30:21+00:00"
+        },
+        "record_timestamp": "2022-10-20T09:30:00Z"
+      },
+      {
+        "datasetid": "mobilites-stationnement-des-parkings-en-temps-reel",
+        "recordid": "3967fe7b84218d223ece4e173903d02179d60be2",
+        "fields": {
+          "taux_doccupation": 45.17241379310345,
+          "capacite": 290.0,
+          "places_restantes": 159.0,
+          "nom": "CORDELIERS",
+          "id": "6",
+          "derniere_mise_a_jour_base": "2022-10-20T11:30:21+00:00"
+        },
+        "record_timestamp": "2022-10-20T09:30:00Z"
+      },
+      {
+        "datasetid": "mobilites-stationnement-des-parkings-en-temps-reel",
+        "recordid": "fdf89684c48ec3cdb6973af333a90b81d2170550",
+        "fields": {
+          "taux_doccupation": 90.50632911392405,
+          "capacite": 632.0,
+          "places_restantes": 60.0,
+          "nom": "GARE TOUMAI",
+          "id": "9",
+          "geo_point_2d": [
+            46.58358353103216,
+            0.3348348830917244
+          ],
+          "derniere_mise_a_jour_base": "2022-10-20T11:30:21+00:00"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            0.3348348830917244,
+            46.58358353103216
+          ]
+        },
+        "record_timestamp": "2022-10-20T09:30:00Z"
+      },
+      {
+        "datasetid": "mobilites-stationnement-des-parkings-en-temps-reel",
+        "recordid": "0e5d3aa653598c03a480622159f21d0273b6268f",
+        "fields": {
+          "taux_doccupation": 39.416058394160586,
+          "capacite": 137.0,
+          "places_restantes": 83.0,
+          "nom": "ARRET MINUTE",
+          "id": "11",
+          "geo_point_2d": [
+            46.583793004495156,
+            0.3349825350533068
+          ],
+          "derniere_mise_a_jour_base": "2022-10-20T11:30:21+00:00"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            0.3349825350533068,
+            46.583793004495156
+          ]
+        },
+        "record_timestamp": "2022-10-20T09:30:00Z"
+      },
+      {
+        "datasetid": "mobilites-stationnement-des-parkings-en-temps-reel",
+        "recordid": "b6d9fdd708b45e2b4ac283971bbea3386bc9dec0",
+        "fields": {
+          "taux_doccupation": 38.57142857142858,
+          "capacite": 70.0,
+          "places_restantes": 43.0,
+          "nom": "PALAIS DE JUSTICE",
+          "id": "12",
+          "geo_point_2d": [
+            46.58595804860371,
+            0.3512954265806957
+          ],
+          "derniere_mise_a_jour_base": "2022-10-20T11:30:23+00:00"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            0.3512954265806957,
+            46.58595804860371
+          ]
+        },
+        "record_timestamp": "2022-10-20T09:30:00Z"
+      }
+    ]
+  },
+  "facet_groups": [
+    {
+      "name": "nom",
+      "facets": [
+        {
+          "name": "ARRET MINUTE",
+          "count": 1,
+          "state": "displayed",
+          "path": "ARRET MINUTE"
+        },
+        {
+          "name": "BLOSSAC TISON",
+          "count": 1,
+          "state": "displayed",
+          "path": "BLOSSAC TISON"
+        },
+        {
+          "name": "CORDELIERS",
+          "count": 1,
+          "state": "displayed",
+          "path": "CORDELIERS"
+        },
+        {
+          "name": "GARE EFFIA",
+          "count": 1,
+          "state": "displayed",
+          "path": "GARE EFFIA"
+        },
+        {
+          "name": "GARE TOUMAI",
+          "count": 1,
+          "state": "displayed",
+          "path": "GARE TOUMAI"
+        },
+        {
+          "name": "HOTEL DE VILLE",
+          "count": 1,
+          "state": "displayed",
+          "path": "HOTEL DE VILLE"
+        },
+        {
+          "name": "NOTRE DAME",
+          "count": 1,
+          "state": "displayed",
+          "path": "NOTRE DAME"
+        },
+        {
+          "name": "PALAIS DE JUSTICE",
+          "count": 1,
+          "state": "displayed",
+          "path": "PALAIS DE JUSTICE"
+        },
+        {
+          "name": "THEATRE",
+          "count": 1,
+          "state": "displayed",
+          "path": "THEATRE"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "nhits": 26,
+  "parameters": {
+    "dataset": "mobilite-parkings-grand-poitiers-donnees-metiers",
+    "rows": 1000,
+    "start": 0,
+    "facet": [
+      "nom_du_parking",
+      "zone_tarifaire",
+      "statut2",
+      "statut3"
+    ],
+    "format": "json",
+    "timezone": "UTC"
+  },
+  "test": {
+    "records": [
+      {
+        "datasetid": "mobilite-parkings-grand-poitiers-donnees-metiers",
+        "recordid": "e24d0474ce8282db403e8cbf61c94069c1b89460",
+        "fields": {
+          "xlong": 0.35129543,
+          "nom": "PALAIS DE JUSTICE",
+          "nb_places": 140,
+          "nb_autopar": 0,
+          "nb_voiture": 0,
+          "num_siret": "218 601 946     00658",
+          "type_usage": "tous",
+          "nb_pmr": 2,
+          "adresse": "Boulevard De Lattre de Tassigny",
+          "tarif_3h": "2,4",
+          "insee": 86194,
+          "url": "https://www.poitiers.fr/c__246_993__Tarifs_des_parkings.html",
+          "tarif_1h": "0,8",
+          "type_ouvra": "ENCLOS_EN_SURFACE",
+          "nb_covoit": 0,
+          "tarif_24h": 8,
+          "nom_du_par": "PALAIS DE JUSTICE",
+          "tarif_2h": "1,6",
+          "geo_point_2d": [
+            46.58595804860371,
+            0.3512954265806957
+          ],
+          "info": "Parking en enclos sous barriéres payant de 9h à 19h du lundi au samedi, gratuit dimanche et jours fériés.",
+          "nb_2r_el": 0,
+          "gratuit": 0,
+          "hauteur_ma": 0,
+          "gml_id": "Parkings.3",
+          "nb_velo": 0,
+          "abo_reside": "non",
+          "f_2h15": "1,8",
+          "tarif_4h": "3,2",
+          "id": "F4604__1923",
+          "geo_shape": {
+            "coordinates": [
+              0.351295426580696,
+              46.58595804860371
+            ],
+            "type": "Point"
+          },
+          "abo_non_re": "oui",
+          "ylat": 46.58595805,
+          "nb_2_rm": 0
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            0.3512954265806957,
+            46.58595804860371
+          ]
+        },
+        "record_timestamp": "2022-10-19T07:12:01.553Z"
+      }
+    ]
+  }
+}

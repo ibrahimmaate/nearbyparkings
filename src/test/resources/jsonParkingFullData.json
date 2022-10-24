@@ -1,0 +1,1424 @@
+{
+  "nhits": 26,
+  "parameters": {
+    "dataset": "mobilite-parkings-grand-poitiers-donnees-metiers",
+    "rows": 1000,
+    "start": 0,
+    "facet": [
+      "nom_du_parking",
+      "zone_tarifaire",
+      "statut2",
+      "statut3"
+    ],
+    "format": "json",
+    "timezone": "UTC"
+  },
+  "test": {
+    "records": [
+      {
+        "datasetid": "mobilite-parkings-grand-poitiers-donnees-metiers",
+        "recordid": "e24d0474ce8282db403e8cbf61c94069c1b89460",
+        "fields": {
+          "xlong": 0.35129543,
+          "nom": "PALAIS DE JUSTICE",
+          "nb_places": 140,
+          "nb_autopar": 0,
+          "nb_voiture": 0,
+          "num_siret": "218 601 946     00658",
+          "type_usage": "tous",
+          "nb_pmr": 2,
+          "adresse": "Boulevard De Lattre de Tassigny",
+          "tarif_3h": "2,4",
+          "insee": 86194,
+          "url": "https://www.poitiers.fr/c__246_993__Tarifs_des_parkings.html",
+          "tarif_1h": "0,8",
+          "type_ouvra": "ENCLOS_EN_SURFACE",
+          "nb_covoit": 0,
+          "tarif_24h": 8,
+          "nom_du_par": "PALAIS DE JUSTICE",
+          "tarif_2h": "1,6",
+          "geo_point_2d": [
+            46.58595804860371,
+            0.3512954265806957
+          ],
+          "info": "Parking en enclos sous barriéres payant de 9h à 19h du lundi au samedi, gratuit dimanche et jours fériés.",
+          "nb_2r_el": 0,
+          "gratuit": 0,
+          "hauteur_ma": 0,
+          "gml_id": "Parkings.3",
+          "nb_velo": 0,
+          "abo_reside": "non",
+          "f_2h15": "1,8",
+          "tarif_4h": "3,2",
+          "id": "F4604__1923",
+          "geo_shape": {
+            "coordinates": [
+              0.351295426580696,
+              46.58595804860371
+            ],
+            "type": "Point"
+          },
+          "abo_non_re": "oui",
+          "ylat": 46.58595805,
+          "nb_2_rm": 0
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            0.3512954265806957,
+            46.58595804860371
+          ]
+        },
+        "record_timestamp": "2022-10-22T09:24:01.393Z"
+      },
+      {
+        "datasetid": "mobilite-parkings-grand-poitiers-donnees-metiers",
+        "recordid": "b91b46e75a35d72d8288e22478a6a474e45502e2",
+        "fields": {
+          "xlong": 0.34744931,
+          "nom": "CLOS DES CARMES",
+          "nb_places": 150,
+          "nb_autopar": 0,
+          "nb_voiture": 6,
+          "num_siret": "218 601 946     00658",
+          "type_usage": "abonnés",
+          "nb_pmr": 2,
+          "adresse": "Rue Monseigneur Augouard (niveau -2) et sortie Rue du 19 Mars 1962 (niveau -1)",
+          "insee": 86194,
+          "url": "https://www.poitiers.fr/c__246_993__Tarifs_des_parkings.html",
+          "type_ouvra": "OUVRAGE",
+          "nb_covoit": 0,
+          "tarif_24h": 0,
+          "nom_du_par": "CLOS DES CARMES",
+          "geo_point_2d": [
+            46.58348367959357,
+            0.34744930500842264
+          ],
+          "info": "Parking uniquement abonné",
+          "nb_2r_el": 0,
+          "gratuit": 0,
+          "hauteur_ma": 190,
+          "gml_id": "Parkings.24",
+          "nb_velo": 0,
+          "abo_reside": "oui",
+          "id": "F4604__1944",
+          "geo_shape": {
+            "coordinates": [
+              0.347449305008423,
+              46.58348367959357
+            ],
+            "type": "Point"
+          },
+          "abo_non_re": "oui",
+          "ylat": 46.58348368,
+          "nb_2_rm": 0
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            0.34744930500842264,
+            46.58348367959357
+          ]
+        },
+        "record_timestamp": "2022-10-22T09:24:01.393Z"
+      },
+      {
+        "datasetid": "mobilite-parkings-grand-poitiers-donnees-metiers",
+        "recordid": "72a74eeee0daf1ebab40206ef473dfaada63f480",
+        "fields": {
+          "xlong": 0.33712631,
+          "nom": "BLOSSAC TISON",
+          "nb_places": 665,
+          "nb_autopar": 0,
+          "nb_voiture": 0,
+          "num_siret": "218 601 946     00658",
+          "type_usage": "tous",
+          "nb_pmr": 9,
+          "adresse": "Carrefour Boulevard sous Blossac (niveau -3) et Boulevard de Tison (niveau -7)",
+          "tarif_3h": "6",
+          "insee": 86194,
+          "url": "https://www.poitiers.fr/c__246_993__Tarifs_des_parkings.html",
+          "tarif_1h": "2",
+          "type_ouvra": "OUVRAGE",
+          "nb_covoit": 0,
+          "tarif_24h": 17,
+          "nom_du_par": "BLOSSAC TISON",
+          "tarif_2h": "4",
+          "geo_point_2d": [
+            46.57505317559496,
+            0.337126307915689
+          ],
+          "info": "En journée (Lundi au Samedi) au-delá de 3 heures de stationnement 0,4 € le 1/4 h supplémentaire, au-delà de 4 heures 0,3€ le 1/4 h supplémentaire - Tarif de nuit 19h á 8h 1€ - Forfait journée 10€ (Du lundi au samedi) 4€ (Dimanche et jours fériés)",
+          "nb_2r_el": 0,
+          "gratuit": 0,
+          "hauteur_ma": 190,
+          "gml_id": "Parkings.1",
+          "nb_velo": 6,
+          "abo_reside": "oui",
+          "f_2h15": "4,5",
+          "tarif_4h": "7,6",
+          "id": "F4604__1921",
+          "geo_shape": {
+            "coordinates": [
+              0.337126307915689,
+              46.57505317559496
+            ],
+            "type": "Point"
+          },
+          "abo_non_re": "oui",
+          "ylat": 46.57505318,
+          "nb_2_rm": 8
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            0.337126307915689,
+            46.57505317559496
+          ]
+        },
+        "record_timestamp": "2022-10-22T09:24:01.393Z"
+      },
+      {
+        "datasetid": "mobilite-parkings-grand-poitiers-donnees-metiers",
+        "recordid": "cdecf241e483e0176eb08f984676f509ab15eb13",
+        "fields": {
+          "xlong": 0.35267594,
+          "nom": "CLAIN SAINTE RADEGONDE",
+          "nb_places": 62,
+          "nb_autopar": 0,
+          "nb_voiture": 0,
+          "num_siret": "218 601 946     00658",
+          "type_usage": "tous",
+          "nb_pmr": 1,
+          "adresse": "Boulevard Pont joubert",
+          "insee": 86194,
+          "url": "https://www.poitiers.fr/c__246_993__Tarifs_des_parkings.html",
+          "type_ouvra": "PARKING_EN_SURFACE",
+          "nb_covoit": 0,
+          "nom_du_par": "CLAIN SAINTE RADEGONDE",
+          "geo_point_2d": [
+            46.579463186173186,
+            0.3527926884101287
+          ],
+          "info": "Parking gratuit",
+          "nb_2r_el": 0,
+          "gratuit": 1,
+          "hauteur_ma": 0,
+          "gml_id": "Parkings.4",
+          "nb_velo": 0,
+          "abo_reside": "non",
+          "id": "F4604__1924",
+          "geo_shape": {
+            "coordinates": [
+              0.352792688410129,
+              46.579463186173186
+            ],
+            "type": "Point"
+          },
+          "abo_non_re": "non",
+          "ylat": 46.58268998,
+          "nb_2_rm": 0
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            0.3527926884101287,
+            46.579463186173186
+          ]
+        },
+        "record_timestamp": "2022-10-22T09:24:01.393Z"
+      },
+      {
+        "datasetid": "mobilite-parkings-grand-poitiers-donnees-metiers",
+        "recordid": "88526cf52375ed730138cd6893dbff91b7d84c82",
+        "fields": {
+          "xlong": 0.34881538,
+          "nom": "JARDIN DES PLANTES",
+          "nb_places": 32,
+          "nb_autopar": 0,
+          "nb_voiture": 0,
+          "num_siret": "218 601 946     00658",
+          "type_usage": "tous",
+          "nb_pmr": 0,
+          "adresse": "Boulevard maréchal de Lattre de Tassigny",
+          "tarif_3h": "1,2",
+          "insee": 86194,
+          "url": "https://www.poitiers.fr/c__246_993__Tarifs_des_parkings.html",
+          "tarif_1h": "0,4",
+          "type_ouvra": "PARKING_EN_SURFACE",
+          "nb_covoit": 0,
+          "tarif_24h": 30,
+          "nom_du_par": "JARDIN DES PLANTES",
+          "tarif_2h": "0,8",
+          "geo_point_2d": [
+            46.58708625124429,
+            0.34881537972539434
+          ],
+          "info": "Stationnement longue durée (Zone violet) - Pour les horaires 6H maximum application du FPS 30€ pour 6H15",
+          "nb_2r_el": 0,
+          "gratuit": 0,
+          "hauteur_ma": 0,
+          "f_30_mn": "gratuit",
+          "gml_id": "Parkings.2",
+          "nb_velo": 0,
+          "abo_reside": "oui",
+          "f_2h15": "0,9",
+          "tarif_4h": "1.6",
+          "id": "F4604__1922",
+          "geo_shape": {
+            "coordinates": [
+              0.348815379725394,
+              46.58708625124429
+            ],
+            "type": "Point"
+          },
+          "abo_non_re": "non",
+          "ylat": 46.58708625,
+          "nb_2_rm": 0
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            0.34881537972539434,
+            46.58708625124429
+          ]
+        },
+        "record_timestamp": "2022-10-22T09:24:01.393Z"
+      },
+      {
+        "datasetid": "mobilite-parkings-grand-poitiers-donnees-metiers",
+        "recordid": "e982519cfe403a9bb3c5a895a45b1031df713f44",
+        "fields": {
+          "xlong": 0.34992735,
+          "nom": "ANATOLE FRANCE",
+          "nb_places": 37,
+          "nb_autopar": 0,
+          "nb_voiture": 0,
+          "num_siret": "218 601 946     00658",
+          "type_usage": "tous",
+          "nb_pmr": 2,
+          "adresse": "Boulevard Anatole France",
+          "tarif_3h": "1,2",
+          "insee": 86194,
+          "url": "https://www.poitiers.fr/c__246_993__Tarifs_des_parkings.html",
+          "tarif_1h": "0.4",
+          "type_ouvra": "PARKING_EN_SURFACE",
+          "nb_covoit": 0,
+          "tarif_24h": 30,
+          "nom_du_par": "ANATOLE FRANCE",
+          "tarif_2h": "0.8",
+          "geo_point_2d": [
+            46.57791089509018,
+            0.34992734879329634
+          ],
+          "info": "Stationnement longue durée (Zone violet) - Pour les horaires 6H maximum application du FPS 30€ pour 6H15",
+          "nb_2r_el": 0,
+          "gratuit": 0,
+          "hauteur_ma": 0,
+          "f_30_mn": "gratuit",
+          "gml_id": "Parkings.9",
+          "nb_velo": 0,
+          "abo_reside": "oui",
+          "f_2h15": "0,9",
+          "tarif_4h": "1.6",
+          "id": "F4604__1929",
+          "geo_shape": {
+            "coordinates": [
+              0.349927348793296,
+              46.57791089509018
+            ],
+            "type": "Point"
+          },
+          "abo_non_re": "non",
+          "ylat": 46.5779109,
+          "nb_2_rm": 0
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            0.34992734879329634,
+            46.57791089509018
+          ]
+        },
+        "record_timestamp": "2022-10-22T09:24:01.393Z"
+      },
+      {
+        "datasetid": "mobilite-parkings-grand-poitiers-donnees-metiers",
+        "recordid": "95d3ac95628fbc0669f90e90af7589c6957ac897",
+        "fields": {
+          "xlong": 0.34012663,
+          "nom": "INTENDANT LE NAIN",
+          "nb_places": 76,
+          "nb_autopar": 0,
+          "nb_voiture": 0,
+          "num_siret": "218 601 946     00658",
+          "type_usage": "tous",
+          "nb_pmr": 0,
+          "adresse": "Rue Intendant le nain",
+          "insee": 86194,
+          "url": "https://www.poitiers.fr/c__246_993__Tarifs_des_parkings.html",
+          "type_ouvra": "PARKING_EN_SURFACE",
+          "nb_covoit": 0,
+          "tarif_24h": 0,
+          "nom_du_par": "INTENDANT LE NAIN",
+          "geo_point_2d": [
+            46.590759610411894,
+            0.3401266292227651
+          ],
+          "info": "Parking gratuit",
+          "nb_2r_el": 0,
+          "gratuit": 1,
+          "hauteur_ma": 0,
+          "gml_id": "Parkings.11",
+          "nb_velo": 0,
+          "id": "F4604__1931",
+          "geo_shape": {
+            "coordinates": [
+              0.340126629222765,
+              46.590759610411894
+            ],
+            "type": "Point"
+          },
+          "ylat": 46.59075961,
+          "nb_2_rm": 0
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            0.3401266292227651,
+            46.590759610411894
+          ]
+        },
+        "record_timestamp": "2022-10-22T09:24:01.393Z"
+      },
+      {
+        "datasetid": "mobilite-parkings-grand-poitiers-donnees-metiers",
+        "recordid": "dad9598dcadfdae74dbdd9d57642152d0c5e1a81",
+        "fields": {
+          "xlong": 0.34959957,
+          "nom": "SAINTE CROIX",
+          "nb_places": 41,
+          "nb_autopar": 0,
+          "nb_voiture": 0,
+          "num_siret": "218 601 946     00658",
+          "type_usage": "tous",
+          "nb_pmr": 1,
+          "adresse": "Rue Sainte Croix",
+          "insee": 86194,
+          "url": "https://www.poitiers.fr/c__246_993__Tarifs_des_parkings.html",
+          "tarif_1h": "1,5",
+          "type_ouvra": "PARKING_EN_SURFACE",
+          "nb_covoit": 0,
+          "tarif_24h": 0,
+          "nom_du_par": "SAINTE CROIX",
+          "tarif_2h": "4,5",
+          "geo_point_2d": [
+            46.579778006346764,
+            0.3495995653843315
+          ],
+          "info": "Stationnement résident (Zone verte du lundi au vendredi) - Pour les horaires 2H maximum application du FPS 30€ pour 2H15",
+          "nb_2r_el": 0,
+          "gratuit": 0,
+          "hauteur_ma": 0,
+          "f_30_mn": "gratuit",
+          "gml_id": "Parkings.13",
+          "nb_velo": 0,
+          "abo_reside": "oui",
+          "f_2h15": "30",
+          "id": "F4604__1933",
+          "geo_shape": {
+            "coordinates": [
+              0.349599565384332,
+              46.579778006346764
+            ],
+            "type": "Point"
+          },
+          "abo_non_re": "non",
+          "ylat": 46.57977801,
+          "nb_2_rm": 0
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            0.3495995653843315,
+            46.579778006346764
+          ]
+        },
+        "record_timestamp": "2022-10-22T09:24:01.393Z"
+      },
+      {
+        "datasetid": "mobilite-parkings-grand-poitiers-donnees-metiers",
+        "recordid": "4b5eedef6d4f9302e99da09af565f975ccc4af46",
+        "fields": {
+          "xlong": 0.34220112,
+          "nom": "MERIMEE",
+          "nb_places": 55,
+          "nb_autopar": 0,
+          "nb_voiture": 0,
+          "num_siret": "218 601 946     00658",
+          "type_usage": "tous",
+          "nb_pmr": 2,
+          "adresse": "Rue prosper Mérimée",
+          "insee": 86194,
+          "url": "https://www.poitiers.fr/c__246_993__Tarifs_des_parkings.html",
+          "tarif_1h": "1,5",
+          "type_ouvra": "PARKING_EN_SURFACE",
+          "nb_covoit": 0,
+          "tarif_24h": 0,
+          "nom_du_par": "MERIMEE",
+          "tarif_2h": "4,5",
+          "geo_point_2d": [
+            46.58922605070947,
+            0.3422011200821881
+          ],
+          "info": "Stationnement résident (Zone verte du lundi au vendredi) - Pour les horaires 2H maximum application du FPS 30€ pour 2H15",
+          "nb_2r_el": 0,
+          "gratuit": 0,
+          "hauteur_ma": 0,
+          "f_30_mn": "gratuit",
+          "gml_id": "Parkings.15",
+          "nb_velo": 0,
+          "abo_reside": "oui",
+          "f_2h15": "30",
+          "id": "F4604__1935",
+          "geo_shape": {
+            "coordinates": [
+              0.342201120082188,
+              46.58922605070947
+            ],
+            "type": "Point"
+          },
+          "abo_non_re": "non",
+          "ylat": 46.58922605,
+          "nb_2_rm": 0
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            0.3422011200821881,
+            46.58922605070947
+          ]
+        },
+        "record_timestamp": "2022-10-22T09:24:01.393Z"
+      },
+      {
+        "datasetid": "mobilite-parkings-grand-poitiers-donnees-metiers",
+        "recordid": "7f34905119686bc0976182651073c473b631b467",
+        "fields": {
+          "xlong": 0.34042106,
+          "nom": "MONTFORT",
+          "nb_places": 27,
+          "nb_autopar": 0,
+          "nb_voiture": 0,
+          "num_siret": "218 601 946     00658",
+          "type_usage": "tous",
+          "nb_pmr": 1,
+          "adresse": "Rue Gringnon de montfort",
+          "insee": 86194,
+          "url": "https://www.poitiers.fr/c__246_993__Tarifs_des_parkings.html",
+          "tarif_1h": "1,5",
+          "type_ouvra": "PARKING_EN_SURFACE",
+          "nb_covoit": 0,
+          "tarif_24h": 0,
+          "nom_du_par": "MONTFORT",
+          "tarif_2h": "4,5",
+          "geo_point_2d": [
+            46.588013212465064,
+            0.34042105513535736
+          ],
+          "info": "Stationnement résident (Zone verte du lundi au vendredi) - Pour les horaires 2H maximum application du FPS 30€ pour 2H15",
+          "nb_2r_el": 0,
+          "gratuit": 0,
+          "hauteur_ma": 0,
+          "f_30_mn": "gratuit",
+          "gml_id": "Parkings.16",
+          "nb_velo": 0,
+          "abo_reside": "oui",
+          "f_2h15": "30",
+          "id": "F4604__1936",
+          "geo_shape": {
+            "coordinates": [
+              0.340421055135357,
+              46.588013212465064
+            ],
+            "type": "Point"
+          },
+          "abo_non_re": "non",
+          "ylat": 46.58801321,
+          "nb_2_rm": 0
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            0.34042105513535736,
+            46.588013212465064
+          ]
+        },
+        "record_timestamp": "2022-10-22T09:24:01.393Z"
+      },
+      {
+        "datasetid": "mobilite-parkings-grand-poitiers-donnees-metiers",
+        "recordid": "34b4dd05eadcc44db4ef6077125e973c6f7ee3b9",
+        "fields": {
+          "xlong": 0.3382104,
+          "nom": "GRAND CERF",
+          "nb_places": 78,
+          "nb_autopar": 0,
+          "nb_voiture": 0,
+          "num_siret": "218 601 946     00658",
+          "type_usage": "tous",
+          "nb_pmr": 2,
+          "adresse": "Rue du Grand Cerf",
+          "tarif_3h": "1,2",
+          "insee": 86194,
+          "url": "https://www.poitiers.fr/c__246_993__Tarifs_des_parkings.html",
+          "tarif_1h": "0,4",
+          "type_ouvra": "PARKING_EN_SURFACE",
+          "nb_covoit": 0,
+          "tarif_24h": 30,
+          "nom_du_par": "GRAND CERF",
+          "tarif_2h": "0,8",
+          "geo_point_2d": [
+            46.58716073036706,
+            0.33821040476850095
+          ],
+          "info": "Stationnement longue durée (Zone violet) - Pour les horaires 12H maximum application du FPS",
+          "nb_2r_el": 0,
+          "gratuit": 0,
+          "hauteur_ma": 0,
+          "f_30_mn": "gratuit",
+          "gml_id": "Parkings.17",
+          "nb_velo": 0,
+          "abo_reside": "oui",
+          "f_2h15": "0,9",
+          "tarif_4h": "1,6",
+          "id": "F4604__1937",
+          "geo_shape": {
+            "coordinates": [
+              0.338210404768501,
+              46.58716073036706
+            ],
+            "type": "Point"
+          },
+          "abo_non_re": "oui",
+          "ylat": 46.58716073,
+          "nb_2_rm": 0
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            0.33821040476850095,
+            46.58716073036706
+          ]
+        },
+        "record_timestamp": "2022-10-22T09:24:01.393Z"
+      },
+      {
+        "datasetid": "mobilite-parkings-grand-poitiers-donnees-metiers",
+        "recordid": "f3b2b87cd50444912379e4cfaa3e0eccfdc6c5f4",
+        "fields": {
+          "xlong": 0.34360039,
+          "nom": "MONTIERNEUF",
+          "nb_places": 8,
+          "nb_autopar": 0,
+          "nb_voiture": 0,
+          "num_siret": "218 601 946     00658",
+          "type_usage": "tous",
+          "nb_pmr": 2,
+          "adresse": "Place Montierneuf",
+          "insee": 86194,
+          "url": "https://www.poitiers.fr/c__246_993__Tarifs_des_parkings.html",
+          "tarif_1h": "1,5",
+          "type_ouvra": "PARKING_EN_SURFACE",
+          "nb_covoit": 0,
+          "tarif_24h": 0,
+          "nom_du_par": "MONTIERNEUF",
+          "tarif_2h": "4,5",
+          "geo_point_2d": [
+            46.589156117484485,
+            0.3436003868097883
+          ],
+          "info": "Stationnement résident (Zone verte du lundi au vendredi) - Pour les horaires 2H maximum application du FPS 30€ pour 2H15",
+          "nb_2r_el": 0,
+          "gratuit": 0,
+          "hauteur_ma": 0,
+          "f_30_mn": "gratuit",
+          "gml_id": "Parkings.18",
+          "nb_velo": 0,
+          "abo_reside": "oui",
+          "f_2h15": "30",
+          "id": "F4604__1938",
+          "geo_shape": {
+            "coordinates": [
+              0.343600386809788,
+              46.589156117484485
+            ],
+            "type": "Point"
+          },
+          "abo_non_re": "non",
+          "ylat": 46.58915612,
+          "nb_2_rm": 0
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            0.3436003868097883,
+            46.589156117484485
+          ]
+        },
+        "record_timestamp": "2022-10-22T09:24:01.393Z"
+      },
+      {
+        "datasetid": "mobilite-parkings-grand-poitiers-donnees-metiers",
+        "recordid": "b7eadba66d52d8f93cd55e33d13c3b70b26f10c0",
+        "fields": {
+          "xlong": 0.33973514,
+          "nom": "JEAN DE BERRY",
+          "nb_places": 12,
+          "nb_autopar": 0,
+          "nb_voiture": 0,
+          "num_siret": "218 601 946     00658",
+          "type_usage": "tous",
+          "nb_pmr": 1,
+          "adresse": "Place Jean de Berry",
+          "insee": 86194,
+          "url": "https://www.poitiers.fr/c__246_993__Tarifs_des_parkings.html",
+          "type_ouvra": "PARKING_EN_SURFACE",
+          "nb_covoit": 0,
+          "tarif_24h": 0,
+          "nom_du_par": "JEAN DE BERRY",
+          "geo_point_2d": [
+            46.59022945795172,
+            0.33973514196281185
+          ],
+          "info": "Parking gratuit",
+          "nb_2r_el": 0,
+          "gratuit": 1,
+          "hauteur_ma": 0,
+          "gml_id": "Parkings.19",
+          "nb_velo": 2,
+          "id": "F4604__1939",
+          "geo_shape": {
+            "coordinates": [
+              0.339735141962812,
+              46.59022945795172
+            ],
+            "type": "Point"
+          },
+          "ylat": 46.59022946,
+          "nb_2_rm": 0
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            0.33973514196281185,
+            46.59022945795172
+          ]
+        },
+        "record_timestamp": "2022-10-22T09:24:01.393Z"
+      },
+      {
+        "datasetid": "mobilite-parkings-grand-poitiers-donnees-metiers",
+        "recordid": "54cd7911cbbe234d813a56e8cd2d9e773eb43d1d",
+        "fields": {
+          "xlong": 0.33498254,
+          "nom": "ARRET MINUTE",
+          "nb_places": 137,
+          "nb_autopar": 2,
+          "nb_voiture": 0,
+          "num_siret": "218 601 946     00658",
+          "type_usage": "tous",
+          "nb_pmr": 4,
+          "adresse": "52 Boulevard du Grand Cerf",
+          "tarif_3h": "10",
+          "insee": 86194,
+          "url": "https://www.poitiers.fr/c__246_993__Tarifs_des_parkings.html",
+          "tarif_1h": "2",
+          "type_ouvra": "OUVRAGE",
+          "nb_covoit": 0,
+          "tarif_24h": 22,
+          "nom_du_par": "ARRET MINUTE",
+          "tarif_2h": "6",
+          "geo_point_2d": [
+            46.583793004495156,
+            0.3349825350533068
+          ],
+          "info": "Niveau 1 : arrêt minute exclusivement - 30 min gratuite puis 1 € le 1/4h jusqu'à 4h de stationnement, ensuite 0,1€ par 1/4h sup Accueil ouvert 24h/24 05 49 41 91 65",
+          "nb_2r_el": 0,
+          "gratuit": 0,
+          "hauteur_ma": 200,
+          "f_30_mn": "gratuit",
+          "gml_id": "Parkings.28",
+          "nb_velo": 0,
+          "abo_reside": "non",
+          "f_2h15": "7",
+          "tarif_4h": "14",
+          "id": "F4604__1948",
+          "geo_shape": {
+            "coordinates": [
+              0.334982535053307,
+              46.583793004495156
+            ],
+            "type": "Point"
+          },
+          "abo_non_re": "non",
+          "ylat": 46.58379301,
+          "nb_2_rm": 12
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            0.3349825350533068,
+            46.583793004495156
+          ]
+        },
+        "record_timestamp": "2022-10-22T09:24:01.393Z"
+      },
+      {
+        "datasetid": "mobilite-parkings-grand-poitiers-donnees-metiers",
+        "recordid": "240296cb2014c2753e018dc9389fb007237783ef",
+        "fields": {
+          "xlong": 0.35268699,
+          "nom": "CLAIN BAJON",
+          "nb_places": 92,
+          "nb_autopar": 0,
+          "nb_voiture": 0,
+          "num_siret": "218 601 946     00658",
+          "type_usage": "tous",
+          "nb_pmr": 2,
+          "adresse": "Boulevard Bajon",
+          "insee": 86194,
+          "url": "https://www.poitiers.fr/c__246_993__Tarifs_des_parkings.html",
+          "type_ouvra": "PARKING_EN_SURFACE",
+          "nb_covoit": 0,
+          "nom_du_par": "CLAIN BAJON",
+          "geo_point_2d": [
+            46.58263715893359,
+            0.35264743861533343
+          ],
+          "info": "Parking gratuit",
+          "nb_2r_el": 0,
+          "gratuit": 1,
+          "hauteur_ma": 0,
+          "gml_id": "Parkings.5",
+          "nb_velo": 0,
+          "abo_reside": "non",
+          "id": "F4604__1925",
+          "geo_shape": {
+            "coordinates": [
+              0.352647438615333,
+              46.58263715893359
+            ],
+            "type": "Point"
+          },
+          "abo_non_re": "non",
+          "ylat": 46.57929425,
+          "nb_2_rm": 0
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            0.35264743861533343,
+            46.58263715893359
+          ]
+        },
+        "record_timestamp": "2022-10-22T09:24:01.393Z"
+      },
+      {
+        "datasetid": "mobilite-parkings-grand-poitiers-donnees-metiers",
+        "recordid": "7d35b94f66f4d4dd6fcf8dc9967c12117e01e31b",
+        "fields": {
+          "xlong": 0.3532536,
+          "nom": "PASTEUR",
+          "nb_places": 32,
+          "nb_autopar": 0,
+          "nb_voiture": 0,
+          "num_siret": "218 601 946     00658",
+          "type_usage": "tous",
+          "nb_pmr": 2,
+          "adresse": "Rue Pasteur",
+          "tarif_3h": "1,2",
+          "insee": 86194,
+          "url": "https://www.poitiers.fr/c__246_993__Tarifs_des_parkings.html",
+          "tarif_1h": "0.4",
+          "type_ouvra": "PARKING_EN_SURFACE",
+          "nb_covoit": 0,
+          "tarif_24h": 30,
+          "nom_du_par": "PASTEUR",
+          "tarif_2h": "0.8",
+          "geo_point_2d": [
+            46.57586833632977,
+            0.3532536023911788
+          ],
+          "info": "Stationnement longue durée (Zone violet) - Pour les horaires 6H maximum application du FPS 30€ pour 6H15",
+          "nb_2r_el": 0,
+          "gratuit": 1,
+          "hauteur_ma": 0,
+          "f_30_mn": "gratuit",
+          "gml_id": "Parkings.6",
+          "nb_velo": 0,
+          "abo_reside": "oui",
+          "f_2h15": "0,9",
+          "tarif_4h": "1.6",
+          "id": "F4604__1926",
+          "geo_shape": {
+            "coordinates": [
+              0.353253602391179,
+              46.57586833632977
+            ],
+            "type": "Point"
+          },
+          "abo_non_re": "non",
+          "ylat": 46.57586834,
+          "nb_2_rm": 0
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            0.3532536023911788,
+            46.57586833632977
+          ]
+        },
+        "record_timestamp": "2022-10-22T09:24:01.393Z"
+      },
+      {
+        "datasetid": "mobilite-parkings-grand-poitiers-donnees-metiers",
+        "recordid": "962921ff6880d6df7b5d894c92a94b1a4fb1f75a",
+        "fields": {
+          "xlong": 0.32975949,
+          "nom": "SOUS BLOSSAC",
+          "nb_places": 60,
+          "nb_autopar": 0,
+          "nb_voiture": 0,
+          "num_siret": "218 601 946     00658",
+          "type_usage": "tous",
+          "nb_pmr": 0,
+          "adresse": "Boulevard sous Blossac",
+          "insee": 86194,
+          "url": "https://www.poitiers.fr/c__246_993__Tarifs_des_parkings.html",
+          "type_ouvra": "PARKING_EN_SURFACE",
+          "nb_covoit": 0,
+          "tarif_24h": 0,
+          "nom_du_par": "SOUS BLOSSAC",
+          "geo_point_2d": [
+            46.573179527982944,
+            0.3297594898303606
+          ],
+          "info": "Parking gratuit",
+          "nb_2r_el": 0,
+          "gratuit": 1,
+          "hauteur_ma": 0,
+          "gml_id": "Parkings.7",
+          "nb_velo": 0,
+          "id": "F4604__1927",
+          "geo_shape": {
+            "coordinates": [
+              0.329759489830361,
+              46.573179527982944
+            ],
+            "type": "Point"
+          },
+          "ylat": 46.57317953,
+          "nb_2_rm": 0
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            0.3297594898303606,
+            46.573179527982944
+          ]
+        },
+        "record_timestamp": "2022-10-22T09:24:01.393Z"
+      },
+      {
+        "datasetid": "mobilite-parkings-grand-poitiers-donnees-metiers",
+        "recordid": "04e77cb32b52f2cfa574f1192ff86a202e7270a5",
+        "fields": {
+          "xlong": 0.34740889,
+          "nom": "CHASSEIGNE",
+          "nb_places": 16,
+          "nb_autopar": 0,
+          "nb_voiture": 0,
+          "num_siret": "218 601 946     00658",
+          "type_usage": "tous",
+          "nb_pmr": 0,
+          "adresse": "Boulevard Chasseigne",
+          "insee": 86194,
+          "url": "https://www.poitiers.fr/c__246_993__Tarifs_des_parkings.html",
+          "type_ouvra": "PARKING_EN_SURFACE",
+          "nb_covoit": 0,
+          "tarif_24h": 0,
+          "nom_du_par": "CHASSEIGNE",
+          "geo_point_2d": [
+            46.589075126577846,
+            0.34740888657162494
+          ],
+          "info": "Parking gratuit",
+          "nb_2r_el": 0,
+          "gratuit": 1,
+          "hauteur_ma": 0,
+          "gml_id": "Parkings.8",
+          "nb_velo": 0,
+          "id": "F4604__1928",
+          "geo_shape": {
+            "coordinates": [
+              0.347408886571625,
+              46.589075126577846
+            ],
+            "type": "Point"
+          },
+          "ylat": 46.58907513,
+          "nb_2_rm": 0
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            0.34740888657162494,
+            46.589075126577846
+          ]
+        },
+        "record_timestamp": "2022-10-22T09:24:01.393Z"
+      },
+      {
+        "datasetid": "mobilite-parkings-grand-poitiers-donnees-metiers",
+        "recordid": "0e3952d13d82e19025eb438fe910690dc49ccd1a",
+        "fields": {
+          "xlong": 0.32753842,
+          "nom": "MADELEINE",
+          "nb_places": 30,
+          "nb_autopar": 0,
+          "nb_voiture": 0,
+          "num_siret": "218 601 946     00658",
+          "type_usage": "tous",
+          "nb_pmr": 0,
+          "adresse": "Boulevard sous Blossac",
+          "insee": 86194,
+          "url": "https://www.poitiers.fr/c__246_993__Tarifs_des_parkings.html",
+          "type_ouvra": "PARKING_EN_SURFACE",
+          "nb_covoit": 0,
+          "tarif_24h": 0,
+          "nom_du_par": "MADELEINE",
+          "geo_point_2d": [
+            46.57222291373908,
+            0.32753841534679007
+          ],
+          "info": "Parking gratuit",
+          "nb_2r_el": 0,
+          "gratuit": 1,
+          "hauteur_ma": 0,
+          "gml_id": "Parkings.10",
+          "nb_velo": 0,
+          "id": "F4604__1930",
+          "geo_shape": {
+            "coordinates": [
+              0.32753841534679,
+              46.57222291373908
+            ],
+            "type": "Point"
+          },
+          "ylat": 46.57222291,
+          "nb_2_rm": 0
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            0.32753841534679007,
+            46.57222291373908
+          ]
+        },
+        "record_timestamp": "2022-10-22T09:24:01.393Z"
+      },
+      {
+        "datasetid": "mobilite-parkings-grand-poitiers-donnees-metiers",
+        "recordid": "99de2203b102b77330cd0a51013c16044c5df246",
+        "fields": {
+          "xlong": 0.33779491,
+          "nom": "THEATRE",
+          "nb_places": 320,
+          "nb_autopar": 0,
+          "nb_voiture": 9,
+          "num_siret": "218 601 946     00658",
+          "type_usage": "tous",
+          "nb_pmr": 9,
+          "adresse": "1 Boulevard de Verdun",
+          "tarif_3h": "6",
+          "insee": 86194,
+          "url": "https://www.poitiers.fr/c__246_993__Tarifs_des_parkings.html",
+          "tarif_1h": "2",
+          "type_ouvra": "OUVRAGE",
+          "nb_covoit": 0,
+          "tarif_24h": 17,
+          "nom_du_par": "THEATRE",
+          "tarif_2h": "4",
+          "geo_point_2d": [
+            46.58383455409422,
+            0.33779491061805567
+          ],
+          "info": "En journée (Lundi au Samedi) au-delá de 3 heures de stationnement 0,4 € le 1/4 h supplémentaire, au-delà de 4 heures 0,3€ le 1/4 h supplémentaire - Tarif de nuit 19h á 8h 1€ - Forfait journée 10€ (Du lundi au samedi) 4€ (Dimanche et jours fériés)",
+          "nb_2r_el": 0,
+          "gratuit": 0,
+          "hauteur_ma": 190,
+          "gml_id": "Parkings.22",
+          "nb_velo": 0,
+          "abo_reside": "oui",
+          "f_2h15": "4,5",
+          "tarif_4h": "7,6",
+          "id": "F4604__1942",
+          "geo_shape": {
+            "coordinates": [
+              0.337794910618056,
+              46.58383455409422
+            ],
+            "type": "Point"
+          },
+          "abo_non_re": "oui",
+          "ylat": 46.58383456,
+          "nb_2_rm": 6
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            0.33779491061805567,
+            46.58383455409422
+          ]
+        },
+        "record_timestamp": "2022-10-22T09:24:01.393Z"
+      },
+      {
+        "datasetid": "mobilite-parkings-grand-poitiers-donnees-metiers",
+        "recordid": "c6753d97501885fdc90ee6192954de6c7fca1892",
+        "fields": {
+          "xlong": 0.33483488,
+          "nom": "GARE TOUMAI",
+          "nb_places": 632,
+          "nb_autopar": 0,
+          "nb_voiture": 10,
+          "num_siret": "218 601 946     00658",
+          "type_usage": "tous",
+          "nb_pmr": 15,
+          "adresse": "52 Boulevard du Grand Cerf",
+          "tarif_3h": "6",
+          "insee": 86194,
+          "url": "https://www.poitiers.fr/c__246_993__Tarifs_des_parkings.html",
+          "tarif_1h": "2",
+          "type_ouvra": "OUVRAGE",
+          "nb_covoit": 0,
+          "tarif_24h": 17,
+          "nom_du_par": "GARE TOUMAI",
+          "tarif_2h": "4",
+          "geo_point_2d": [
+            46.58358353103216,
+            0.3348348830917244
+          ],
+          "info": "En journée (Lundi au Vendredi) au-delá de 4 heures de stationnement 0,5 € le 1/4 supplémentaire - Tarif de nuit 19h á 8h 1€ - Forfait journée 10€ (Du lundi au vendredi) 4€ (Dimanche)",
+          "nb_2r_el": 0,
+          "gratuit": 0,
+          "hauteur_ma": 200,
+          "gml_id": "Parkings.23",
+          "nb_velo": 6,
+          "abo_reside": "oui",
+          "f_2h15": "4,5",
+          "tarif_4h": "7,6",
+          "id": "F4604__1943",
+          "geo_shape": {
+            "coordinates": [
+              0.334834883091724,
+              46.58358353103216
+            ],
+            "type": "Point"
+          },
+          "abo_non_re": "oui",
+          "ylat": 46.58358353,
+          "nb_2_rm": 15
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            0.3348348830917244,
+            46.58358353103216
+          ]
+        },
+        "record_timestamp": "2022-10-22T09:24:01.393Z"
+      },
+      {
+        "datasetid": "mobilite-parkings-grand-poitiers-donnees-metiers",
+        "recordid": "436d6a0c4e911db219a281c592960c13b54652bc",
+        "fields": {
+          "xlong": 0.34500226,
+          "nom": "NOTRE DAME",
+          "nb_places": 642,
+          "nb_autopar": 2,
+          "nb_voiture": 0,
+          "num_siret": "218 601 946     00658",
+          "type_usage": "tous",
+          "nb_pmr": 6,
+          "adresse": "Place Charles de Gaulle 86000 Poitiers",
+          "tarif_3h": "6",
+          "insee": 86194,
+          "url": "https://www.poitiers.fr/c__246_993__Tarifs_des_parkings.html",
+          "tarif_1h": "2",
+          "type_ouvra": "OUVRAGE",
+          "nb_covoit": 0,
+          "tarif_24h": 17,
+          "nom_du_par": "NOTRE DAME",
+          "tarif_2h": "4",
+          "geo_point_2d": [
+            46.58349874703973,
+            0.3450022616476489
+          ],
+          "info": "En journée (Lundi au Vendredi) au-delá de 4 heures de stationnement 0,5 € le 1/4 supplémentaire - Tarif de nuit 19h á 8h 1€ - Forfait journée 10€ (Du lundi au vendredi) 4€ (Dimanche)",
+          "nb_2r_el": 0,
+          "gratuit": 0,
+          "hauteur_ma": 260,
+          "gml_id": "Parkings.25",
+          "nb_velo": 25,
+          "abo_reside": "oui",
+          "f_2h15": "4,5",
+          "tarif_4h": "7,6",
+          "id": "F4604__1945",
+          "geo_shape": {
+            "coordinates": [
+              0.345002261647649,
+              46.58349874703973
+            ],
+            "type": "Point"
+          },
+          "abo_non_re": "oui",
+          "ylat": 46.58349875,
+          "nb_2_rm": 12
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            0.3450022616476489,
+            46.58349874703973
+          ]
+        },
+        "record_timestamp": "2022-10-22T09:24:01.393Z"
+      },
+      {
+        "datasetid": "mobilite-parkings-grand-poitiers-donnees-metiers",
+        "recordid": "4e2f4139ee7b6382d799e33ab862de1a21a44394",
+        "fields": {
+          "xlong": 0.34918837,
+          "nom": "PLACE DE LA CATHEDRALE",
+          "nb_places": 86,
+          "nb_autopar": 0,
+          "nb_voiture": 0,
+          "num_siret": "218 601 946     00658",
+          "type_usage": "tous",
+          "nb_pmr": 0,
+          "adresse": "Place de la cathédrale",
+          "insee": 86194,
+          "url": "https://www.poitiers.fr/c__246_993__Tarifs_des_parkings.html",
+          "tarif_1h": "1,5",
+          "type_ouvra": "PARKING_EN_SURFACE",
+          "nb_covoit": 0,
+          "tarif_24h": 0,
+          "nom_du_par": "PLACE DE LA CATHEDRALE",
+          "tarif_2h": "4,5",
+          "geo_point_2d": [
+            46.58078061160465,
+            0.34918836528575187
+          ],
+          "info": "Stationnement résident (Zone verte du lundi au vendredi) - Pour les horaires 2H maximum application du FPS 30€ pour 2H15",
+          "nb_2r_el": 0,
+          "gratuit": 0,
+          "hauteur_ma": 0,
+          "f_30_mn": "gratuit",
+          "gml_id": "Parkings.12",
+          "nb_velo": 0,
+          "abo_reside": "oui",
+          "f_2h15": "30",
+          "id": "F4604__1932",
+          "geo_shape": {
+            "coordinates": [
+              0.349188365285752,
+              46.58078061160465
+            ],
+            "type": "Point"
+          },
+          "abo_non_re": "non",
+          "ylat": 46.58078061,
+          "nb_2_rm": 0
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            0.34918836528575187,
+            46.58078061160465
+          ]
+        },
+        "record_timestamp": "2022-10-22T09:24:01.393Z"
+      },
+      {
+        "datasetid": "mobilite-parkings-grand-poitiers-donnees-metiers",
+        "recordid": "8b22c1ec4489d56f16ac431b6af39e0c05fce5a8",
+        "fields": {
+          "xlong": 0.34282825,
+          "nom": "LIBERTE",
+          "nb_places": 30,
+          "nb_autopar": 0,
+          "nb_voiture": 0,
+          "num_siret": "218 601 946     00658",
+          "type_usage": "tous",
+          "nb_pmr": 0,
+          "adresse": "Place de la liberté",
+          "insee": 86194,
+          "url": "https://www.poitiers.fr/c__246_993__Tarifs_des_parkings.html",
+          "tarif_1h": "1,5",
+          "type_ouvra": "PARKING_EN_SURFACE",
+          "nb_covoit": 0,
+          "tarif_24h": 0,
+          "nom_du_par": "LIBERTE",
+          "tarif_2h": "4,5",
+          "geo_point_2d": [
+            46.58572887486411,
+            0.3428282528429566
+          ],
+          "info": "Stationnement résident (Zone verte du lundi au vendredi) - Pour les horaires 2H maximum application du FPS 30€ pour 2H15",
+          "nb_2r_el": 0,
+          "gratuit": 0,
+          "hauteur_ma": 0,
+          "f_30_mn": "gratuit",
+          "gml_id": "Parkings.14",
+          "nb_velo": 2,
+          "abo_reside": "oui",
+          "f_2h15": "30",
+          "id": "F4604__1934",
+          "geo_shape": {
+            "coordinates": [
+              0.342828252842957,
+              46.58572887486411
+            ],
+            "type": "Point"
+          },
+          "abo_non_re": "non",
+          "ylat": 46.58572888,
+          "nb_2_rm": 0
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            0.3428282528429566,
+            46.58572887486411
+          ]
+        },
+        "record_timestamp": "2022-10-22T09:24:01.393Z"
+      },
+      {
+        "datasetid": "mobilite-parkings-grand-poitiers-donnees-metiers",
+        "recordid": "4df06de60832c8142fcaa37ee554f918b935b5ce",
+        "fields": {
+          "xlong": 0.33249107,
+          "nom": "MAILLOCHON",
+          "nb_places": 82,
+          "nb_autopar": 0,
+          "nb_voiture": 0,
+          "num_siret": "218 601 946     00658",
+          "type_usage": "tous",
+          "nb_pmr": 2,
+          "adresse": "Rue Maillochon",
+          "tarif_3h": "1,2",
+          "insee": 86194,
+          "url": "https://www.poitiers.fr/c__246_993__Tarifs_des_parkings.html",
+          "tarif_1h": "0,4",
+          "type_ouvra": "PARKING_EN_SURFACE",
+          "nb_covoit": 0,
+          "tarif_24h": 30,
+          "nom_du_par": "MAILLOCHON",
+          "tarif_2h": "0,8",
+          "geo_point_2d": [
+            46.58374770935979,
+            0.3324910697092901
+          ],
+          "info": "Stationnement longue durée (Zone violet) - Pour les horaires 2 fois 6H soit 2 jours maximum application du FPS 30€ pour 12H15",
+          "nb_2r_el": 0,
+          "gratuit": 0,
+          "hauteur_ma": 0,
+          "f_30_mn": "gratuit",
+          "gml_id": "Parkings.20",
+          "nb_velo": 0,
+          "abo_reside": "oui",
+          "f_2h15": "0,9",
+          "tarif_4h": "1,6",
+          "id": "F4604__1940",
+          "geo_shape": {
+            "coordinates": [
+              0.33249106970929,
+              46.58374770935979
+            ],
+            "type": "Point"
+          },
+          "abo_non_re": "non",
+          "ylat": 46.58374771,
+          "nb_2_rm": 0
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            0.3324910697092901,
+            46.58374770935979
+          ]
+        },
+        "record_timestamp": "2022-10-22T09:24:01.393Z"
+      },
+      {
+        "datasetid": "mobilite-parkings-grand-poitiers-donnees-metiers",
+        "recordid": "3dfc565580885f151d6814594d8588df39ab463b",
+        "fields": {
+          "xlong": 0.33855078,
+          "nom": "HOTEL DE VILLE",
+          "nb_places": 625,
+          "nb_autopar": 4,
+          "nb_voiture": 10,
+          "num_siret": "218 601 946     00658",
+          "type_usage": "tous",
+          "nb_pmr": 14,
+          "adresse": "22 rue Carnot",
+          "tarif_3h": "6",
+          "insee": 86194,
+          "url": "https://www.poitiers.fr/c__246_993__Tarifs_des_parkings.html",
+          "tarif_1h": "2",
+          "type_ouvra": "OUVRAGE",
+          "nb_covoit": 0,
+          "tarif_24h": 17,
+          "nom_du_par": "HOTEL DE VILLE",
+          "tarif_2h": "4",
+          "geo_point_2d": [
+            46.5793235337795,
+            0.3385507838016221
+          ],
+          "info": "En journée (Lundi au Samedi) au-delá de 3 heures de stationnement 0,4 € le 1/4 h supplémentaire, au-delà de 4 heures 0,3€ le 1/4 h supplémentaire - Tarif de nuit 19h á 8h 1€ - Forfait journée 10€ (Du lundi au samedi) 4€ (Dimanche et jours fériés)",
+          "nb_2r_el": 0,
+          "gratuit": 0,
+          "hauteur_ma": 290,
+          "gml_id": "Parkings.21",
+          "nb_velo": 20,
+          "abo_reside": "oui",
+          "f_2h15": "4,5",
+          "tarif_4h": "7,6",
+          "id": "F4604__1941",
+          "geo_shape": {
+            "coordinates": [
+              0.338550783801622,
+              46.5793235337795
+            ],
+            "type": "Point"
+          },
+          "abo_non_re": "oui",
+          "ylat": 46.57932353,
+          "nb_2_rm": 16
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            0.3385507838016221,
+            46.5793235337795
+          ]
+        },
+        "record_timestamp": "2022-10-22T09:24:01.393Z"
+      }
+    ]
+  }
+}
